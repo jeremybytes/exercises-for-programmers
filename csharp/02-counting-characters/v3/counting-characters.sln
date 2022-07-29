@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "counting-ui", "counting-ui\counting-ui.csproj", "{E42CDB07-D6A5-4D3B-A323-3E16D97104AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "counting-ui-test", "counting-ui-test\counting-ui-test.csproj", "{49A43A79-50B7-440D-AD21-B4E2EF859443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E42CDB07-D6A5-4D3B-A323-3E16D97104AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42CDB07-D6A5-4D3B-A323-3E16D97104AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42CDB07-D6A5-4D3B-A323-3E16D97104AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42CDB07-D6A5-4D3B-A323-3E16D97104AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A43A79-50B7-440D-AD21-B4E2EF859443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A43A79-50B7-440D-AD21-B4E2EF859443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A43A79-50B7-440D-AD21-B4E2EF859443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A43A79-50B7-440D-AD21-B4E2EF859443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53AE5029-0840-41ED-8110-B94164AB009E}
+	EndGlobalSection
+EndGlobal

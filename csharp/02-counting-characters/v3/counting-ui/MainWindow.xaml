@@ -1,0 +1,27 @@
+﻿<Window x:Class="counting_ui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:counting_ui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="800">
+    <Window.Resources>
+        <local:CountingViewModel x:Key="localCounter" />
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="FontSize" Value="24" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="FontSize" Value="28" />
+        </Style>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource localCounter}" Margin="10">
+        <StackPanel>
+            <TextBlock>What is the input string?</TextBlock>
+            <TextBox x:Name="InputBox" Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock x:Name="OutputBlock" Text="{Binding Message}" />
+        </StackPanel>
+    </Grid>
+</Window>
